@@ -32,4 +32,16 @@ class Jogador
 
         return $this;
     }
+
+    public function getTime(): Time
+    {
+        return $this->time;
+    }
+
+    public function setTime(Time $time): self
+    {
+        $this->time = $time;
+
+        return $this;
+    }
 }
